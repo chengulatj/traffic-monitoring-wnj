@@ -7,32 +7,33 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2487.5">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Wichita NJ Traffic Layer&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC72LHV98dtsjTLPIKt4pmLqBECsQyN6ac"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>function initMap() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const center = { lat: 37.7407, lng: -97.3310 }; // Approx. center of Wichita North Junction</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const map = new google.maps.Map(document.getElementById("map"), {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>zoom: 12,</p>
-<p class="p1"><span class="Apple-converted-space">                </span>center: center,</p>
-<p class="p1"><span class="Apple-converted-space">            </span>});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>const trafficLayer = new google.maps.TrafficLayer();</p>
-<p class="p1"><span class="Apple-converted-space">            </span>trafficLayer.setMap(map);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body onload="initMap()"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="map" style="height: 500px; width: 100%;"&gt;&lt;/div&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Wichita NJ Traffic Layer&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC72LHV98dtsjTLPIKt4pmLqBECsQyN6ac"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function initMap() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const center = { lat: 37.7407, lng: -97.3310 }; // Approx. center of Wichita North Junction</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const map = new google.maps.Map(document.getElementById("map"), {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>zoom: 12,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>center: center,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const trafficLayer = new google.maps.TrafficLayer();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>trafficLayer.setMap(map);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body onload="initMap()"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id="map" style="height: 500px; width: 100%;"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
 </body>
 </html>
